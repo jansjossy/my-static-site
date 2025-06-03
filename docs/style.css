@@ -1,15 +1,30 @@
 body {
-  background-color: #f0f8ff;
-  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   color: #333;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
 }
 
 h1 {
-  color: #0066cc;
-  text-transform: uppercase;
+  color: #ff4081; /* bright pink */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  font-size: 3em;
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 1.25em;
+  color: #4a148c; /* deep purple */
+  margin-top: 20px;
+}
+
+a {
+  color: #ff6f00; /* bright orange */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #c51162; /* darker pink on hover */
 }
